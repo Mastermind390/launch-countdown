@@ -1,0 +1,231 @@
+@media (width <= 600px) {
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: "Red Hat Text", Arial, Helvetica, sans-serif;
+    }
+
+    .image-bg {
+        display: flex;
+        position: relative;
+        background-color: hsl(234, 17%, 12%);
+        height: 100vh;
+        overflow: hidden;
+        justify-content: center;
+    }
+
+    .hill-image {
+        position: absolute;
+        bottom: 0;
+        width: 300%;
+    }
+
+    .bg-stars-container {
+        position: absolute;
+        height: 100vh;
+        
+    }
+
+    .stars-image {
+        object-fit: fill;
+        width: 320%;
+    }
+
+    .time-container {
+        position: absolute;
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 250px;
+    }
+
+    .inner-container {
+        height: 80px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+    }
+
+    .card-container {
+        position: relative;
+        height: 70px;
+        width: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .top-flip-card {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 35px;
+        background-color: hsl(235, 16%, 14%);
+        border-radius: 7px 7px 0 0;
+    }
+
+    .bottom-flip-card {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 35px;
+        background-color: hsl(236, 21%, 26%);
+        border-radius: 0 0 7px 7px;
+    }
+
+    .card-container span {
+        position: absolute;
+        font-size: 2rem;
+        font-weight: bold;
+        color: hsl(345, 95%, 68%);
+    }
+
+    .inner-time-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .days-span {
+        letter-spacing: 5px;
+        font-size: xx-small;
+        margin-top: 6px;
+        color: hsl(237, 18%, 59%);
+    }
+
+   
+   
+   .social-icon-container {
+        position: absolute;
+        bottom: 40px;
+   }
+}
+
+.social-icon-container img {
+    margin-right: 20px;
+}
+
+@media (width >= 600px) {
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: "Red Hat Text", Arial, Helvetica, sans-serif;
+    }
+
+    .image-bg {
+        display: flex;
+        position: relative;
+        background-color: hsl(234, 17%, 12%);
+        height: 100vh;
+        overflow: hidden;
+        justify-content: center;
+    }
+
+    .hill-image {
+        position: absolute;
+        bottom: 0;
+        width: 300%;
+    }
+
+    .bg-stars-container {
+        position: absolute;
+        height: 100vh;
+        
+    }
+
+    .stars-image {
+        object-fit: fill;
+        width: 320%;
+    }
+
+    .time-container {
+        position: absolute;
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        top: 250px;
+    }
+
+    .inner-container {
+        height: 80px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .card-container {
+        position: relative;
+        height: 70px;
+        width: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    .top-flip-card {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 35px;
+        background-color: hsl(235, 16%, 14%);
+        border-radius: 7px 7px 0 0;
+    }
+
+    .bottom-flip-card {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 35px;
+        background-color: hsl(236, 21%, 26%);
+        border-radius: 0 0 7px 7px;
+    }
+
+    .card-container span {
+        position: absolute;
+        font-size: 2rem;
+        font-weight: bold;
+        color: hsl(345, 95%, 68%);
+    }
+
+    .inner-time-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .days-span {
+        letter-spacing: 5px;
+        font-size: xx-small;
+        margin-top: 6px;
+        color: hsl(237, 18%, 59%);
+    }
+
+   
+   
+   .social-icon-container {
+        position: absolute;
+        bottom: 40px;
+   }
+}
+
+.social-icon-container img {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.social-icon-container img:hover {
+    background-color: hsl(345, 95%, 68%);
+}
+
